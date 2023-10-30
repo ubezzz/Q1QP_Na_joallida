@@ -1,0 +1,153 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Slabo+27px&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Open+Sans&family=Slabo+27px&display=swap');
+ *{/*set a default padding and margin*/
+    padding: 0px; 
+    margin: 0px;
+}
+#body{ /*set a background color*/
+    background-color: #E6DDD5; 
+}
+#navbar{ /*styles the navbar of each page*/
+    height: 5vh;
+    background-color: #D8BF9F;
+    padding: 7px;
+}
+#navbar a{ /*styles the buttons for the links found in the navbar*/
+    float: right;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-right: 2vh;
+    float: left;  
+    color: #493423;
+    font-family: 'Open Sans', sans-serif;
+}
+#links a{ /*sets the links*/
+    float: right;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-right: 2vh;
+    float: right;
+    color: black;
+}
+#navbar div{ /*sets the display for navbar to inline*/
+    display: inline;
+}
+#Header{ /*sets the height of the header*/
+    height: 100vh;
+}
+#Header img{ /*sets the width of the image in the header*/
+    width: 100vw;
+}
+#homepara{ /*sets the paragraphs's display to a block*/
+    display: block;
+}
+#homepara h3{ /*styles the heading of the home page*/
+    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-left: 180px;
+    margin-right: 170px;
+    color: #493423;
+    font-family: 'Open Sans', sans-serif;
+}
+#homepara a{ /*styles the link of the home page*/
+    padding: 15px;
+    background-color:#D2A87D ;
+    color: white;
+    margin-left: 170px;
+    text-decoration: none;
+}
+#footer{ /*styles the footer*/
+    height: 5vh;
+    background-color: #D8BF9F;
+    padding: 7px;
+    height: 5vh;
+    background-size: 100%;
+}
+#socials img{ /*styles the social media logos in the footer*/
+    display: inline;
+    float: right;
+    width: 35px;
+}
+#pageT{ /*styles the titles of each page*/
+    margin: 20px;
+}
+#INT{ /*set's the introduction part to flex display*/
+    display: flex;
+}
+#INTimg{ /*set a margin for the introduction image*/
+    margin: 10px;
+}
+.INTpara h4{ /*styles the paragraph in the introduction page*/
+    color: #493423;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+#INTimg img{ /*sets the image's width*/
+    width: 370px;
+}
+.data{ /*set the margin and padding of the container in Data Analysis page */
+    margin-left: 10px;
+    margin: 5px;
+    padding: 30px;
+}
+.qualiData img{ /*sets the margin and padding of the images*/
+    margin: 10px;
+    padding: 10px;
+    width: 550px;
+}
+.quantyData1 img{ /*sets the margin and padding of the images*/
+    margin: 10px;
+    padding: 10px;
+    width: 550px;
+}
+.quantyData2 img{ /*sets the margin and padding of the images*/
+    margin: 10px;
+    padding: 10px;
+    width: 550px;
+}
+#p2 a{ /*styles the button link on the lower part of the page*/
+    padding: 15px;
+    background-color:#D2A87D ;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#p3 a{ /*styles the button link on the lower part of the page*/
+    padding: 15px;
+    background-color:#D2A87D ;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#p4 a{ /*styles the button link on the lower part of the page*/
+    padding: 15px;
+    background-color:#D2A87D ;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.container{ /*sets the container to display flex*/
+    display: flex;
+}
+#conclusion{ /*styles text in the conclusion page*/
+    margin: 10px;
+    font-family: 'Inria Serif', serif;
+}
+.conc img{ /*styles image in the conclusion page*/
+    width: 650px;
+}
+#pics{ /*styles image in the abour page*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    margin: 30px;
+}
+.groupmates img{ /*styles images in the abour page*/
+    width: 350px;
+    margin-left: 30px;
+}
