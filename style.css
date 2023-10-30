@@ -52,7 +52,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 #homepara a{
-    padding: 7px;
+    padding: 15px;
     background-color:#D2A87D ;
     color: white;
     margin-left: 170px;
@@ -109,27 +109,25 @@
     width: 550px;
 }
 #p2 a{
-    padding: 7px;
+    padding: 15px;
     background-color:#D2A87D ;
     color: white;
     text-decoration: none;
     margin-left: 10px;
 }
 #p3 a{
-    padding: 7px;
+    padding: 15px;
     background-color:#D2A87D ;
     color: white;
     text-decoration: none;
     margin-left: 10px;
 }
 #p4 a{
-    
-    padding: 7px;
-    float: right;
+    padding: 15px;
     background-color:#D2A87D ;
     color: white;
     text-decoration: none;
-    margin-right: 30px;
+    margin-left: 10px;
 }
 .container{
     display: flex;
